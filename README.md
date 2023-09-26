@@ -1,3 +1,3 @@
 # thetkeweb1
-![image](https://github.com/truongthanhtoan/thetkeweb1/assets/146089797/01fa314e-dc1f-43e9-bd11-9c9ec801fec6)
+http://127.0.0.1:5500/thietke/demo.html
 thiết kế web
