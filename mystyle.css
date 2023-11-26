@@ -1,0 +1,118 @@
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230516/pngtree-cartoon-scene-of-a-tropical-aquarium-featuring-fish-image_2565244.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#background{
+    position: relative;
+            width: 100%;
+            height: 800px;
+}
+#shark{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left: 100px; top: 400px;}
+    20% {left: 300px; top: 400px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 600px; top: 50px;}
+    60% {left: 600px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#tholan{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Tholan;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Tholan{
+    0% { left: 100px; top: 200px;transform: scaleX(1)}
+    25% { left: 500px; top: 200px;}
+    50% { left: 1200px; top: 200px;}
+    95% { left: 100px; top: 200px; transform: scaleX(-1);}
+    100% { left: 100px; top: 200px;  }
+}
+#rua{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Rua;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Rua {
+    0% { left: 100px; top: 600px;transform: scaleX(1)}
+    25% { left: 500px; top: 600px;}
+    50% { left: 1200px; top: 600px;}
+    95% { left: 100px; top: 600px; transform: scaleX(-1);}
+    100% { left: 100px; top: 600px;  } 
+}
+#cacon{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Cacon;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Cacon {
+    0% { left: 100px; top: 500px;transform: scaleX(1)}
+    25% { left: 500px; top: 500px;}
+    50% { left: 1200px; top: 500px;}
+    95% { left: 100px; top: 500px; transform: scaleX(-1);}
+    100% { left: 100px; top: 500px;  } 
+}
+#botbien{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Botbien;
+    animation-duration: 10s;
+    animation-delay: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Botbien{
+    0% {left: 500px; top: 600px;}
+    100% {left: 500px; top: 100px; transform: scaleX(1);}
+}
+#botbien1{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Botbien1;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Botbien1{
+    0% {left: 900px; top: 600px;}
+    100% {left: 900px; top: 100px; transform: scaleX(1);}
+}
+#botbien2{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: Botbien2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Botbien2{
+    0% {left: 100px; top: 600px;}
+    100% {left: 100px; top: 100px; transform: scaleX(1);}
+}
